@@ -1,0 +1,20 @@
+[debug] [2024-04-25T04:08:07.527Z] ----------------------------------------------------------------------
+[debug] [2024-04-25T04:08:07.535Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\acer120\225-github-actions-demo\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2024-04-25T04:08:07.535Z] CLI Version:   7.16.2
+[debug] [2024-04-25T04:08:07.535Z] Platform:      win32
+[debug] [2024-04-25T04:08:07.536Z] Node Version:  v20.11.1
+[debug] [2024-04-25T04:08:07.536Z] Time:          Thu Apr 25 2024 11:08:07 GMT+0700 (Indochina Time)
+[debug] [2024-04-25T04:08:07.536Z] ----------------------------------------------------------------------
+[debug] [2024-04-25T04:08:07.536Z] 
+[debug] [2024-04-25T04:08:07.554Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-25T04:08:07.555Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: hosting
+[debug] [2024-04-25T04:08:07.710Z] [hub] writing locator at C:\Users\acer120\AppData\Local\Temp\hub-github-actions-c5853.json
+[info] +  hub: emulator hub started at http://localhost:4400
+[debug] [2024-04-25T04:08:07.739Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/github-actions-c5853/webApps/-/config  
+ 
+[debug] [2024-04-25T04:08:08.736Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+[info] +  hosting: hosting emulator started at http://localhost:5000
+[info] +  emulators: All emulators started, it is now safe to connect.
